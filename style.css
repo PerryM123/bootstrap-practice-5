@@ -8,3 +8,8 @@
 .space-above {
 	margin-top: 50px;
 }
+
+.jumbotron {
+	background-image: url("images/eva.png");
+	border: 2px solid red;
+}
