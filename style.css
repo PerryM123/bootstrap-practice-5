@@ -1,0 +1,10 @@
+.box {
+	height: 800px;
+	width: 200px;
+	border: 2px solid black;
+	
+}
+
+.space-above {
+	margin-top: 50px;
+}
