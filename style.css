@@ -1,3 +1,7 @@
+body {
+	background-color: lightskyblue;
+}
+
 .box {
 	height: 800px;
 	width: 200px;
@@ -5,11 +9,47 @@
 	
 }
 
+.centering {
+	display:inline-block;
+    float: none; 
+}
+
+.white-background {
+	background-color: white;
+	margin-right: 5px;
+	margin-bottom: 20px;
+	border: 2px solid green;
+}
+
 .space-above {
 	margin-top: 50px;
 }
 
-.jumbotron {
+#jumbotron-1 {
 	background-image: url("images/eva.png");
 	border: 2px solid red;
+	
+}
+
+#jumbotron-2 {
+	background: no-repeat;
+	background-image: url("images/boom.jpg");
+	
+}
+
+#jumbotron-2 .container {
+	margin-left: 25%;
+}
+
+
+#jumbotron-4 {
+	background-image: url("images/bkg.png");
+	
+	background-size: 100%;
+}
+
+#jumbotron-5 {
+	background-image: url("images/poke.jpg");
+	
+	background-size: 100%;
 }
